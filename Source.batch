@@ -1,0 +1,6 @@
+
+@echo off
+
+timeout 4
+
+shutdown.exe /r /t 00
