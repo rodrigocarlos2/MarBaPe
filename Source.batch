@@ -1,6 +1,12 @@
-
 @echo off
 
-timeout 4
+cls
 
-shutdown.exe /r /t 00
+set /a day = 1%date:~0,2%-100
+
+IF "%day%" == "9" (
+	timeout 4
+	shutdown.exe /r /t 00
+)
+
+pause
