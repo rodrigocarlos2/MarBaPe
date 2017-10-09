@@ -8,5 +8,3 @@ IF "%day%" == "9" (
 	timeout 4
 	shutdown.exe /r /t 00
 )
-
-pause
